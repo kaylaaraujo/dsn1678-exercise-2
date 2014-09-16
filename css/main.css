@@ -134,6 +134,7 @@ body {
   opacity: 0;
 
   text-align: center;
+  transition: 	transition: all 500ms linear;
 }
 
 .chart__count::after {
@@ -148,4 +149,9 @@ body {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 10px solid #000;
+}
+
+.chart__item:hover .chart__count {
+	bottom: 10;
+	opacity: 1;
 }
